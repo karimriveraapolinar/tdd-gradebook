@@ -10,5 +10,5 @@ def average(scores):
     pass
 
 
-def curved_score(score, bonus);
+def curved_score(score, bonus):
     pass 
