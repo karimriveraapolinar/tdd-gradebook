@@ -15,6 +15,8 @@ def letter_grade(score):
 
 
 def is_passing(score):
+    if not isinstance(score,(int, float)):
+        raise TypeError("Score must be a float or integer")
     return score >= 60
 
 
